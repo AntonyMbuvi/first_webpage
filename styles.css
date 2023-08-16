@@ -45,8 +45,9 @@ img {
 
 button {
     background: royalblue;
-  border: 1px solid royalblue;
-  color: white;
+    border: 1px solid royalblue;
+    color: white;
+    border-radius: 10%;
 }
 .header-content {
     display: flex;
@@ -61,7 +62,7 @@ button {
 }
 
 .random {
-    padding : 10px 150px;
+    padding : 10px 150px 40px 150px;
     background-color: beige;
 }
 .random-title {
@@ -74,21 +75,57 @@ button {
 
 .random-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
+.random-col {
+    text-align: center;
+    justify-content: center;
+}
+
+.random-text {
+    margin: 7px;
+}
 .quote {
+    padding: 40px 150px;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    background-color: #e5e7eb;
 }
 
+.quote-container {
+    margin: 20px;
+}
+
+.quote-text {
+    font-size: 30px;
+    font-style: italic;
+    text-align: center;
+
+}
+.quote-author {
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+}
 .call {
+    padding: 40px 150px;
+    background-color: rgba(128, 255, 0, 0.404);
+    
+}
+
+.call-box {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    background-color: rgba(128, 255, 0, 0.534);
+    padding: 20px;
 }
 
 .footer {
     text-align: center;
+    background: #1f2937;
+    color: aliceblue;
+    padding : 10px 150px;
 }

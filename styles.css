@@ -1,0 +1,94 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 0;
+}
+
+.header {
+    background: #1f2937;
+    color: aliceblue;
+    padding : 10px 150px;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+
+.links {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+
+.header-title {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.header-paragraph, .links {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+img {
+    height: 200px;
+    width: 250px;
+}
+
+button {
+    background: royalblue;
+  border: 1px solid royalblue;
+  color: white;
+}
+.header-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-text {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.random {
+    padding : 10px 150px;
+    background-color: beige;
+}
+.random-title {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.random-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.quote {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.call {
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+    text-align: center;
+}

@@ -114,14 +114,14 @@ button {
 }
 .call {
     padding: 40px 150px;
-    background-color: rgba(128, 255, 0, 0.274);
+    background-color: #5d909eb7;
     
 }
 
 .call-box {
     display: flex;
     justify-content: space-around;
-    background-color: rgba(128, 255, 0, 0.438);
+    background-color: #068db3b7;
     padding: 20px;
 }
 
